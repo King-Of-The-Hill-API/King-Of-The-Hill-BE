@@ -3,6 +3,6 @@ DROP TABLE IF EXISTS characters;
 CREATE TABLE characters (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name TEXT NOT NULL,
-    photo_url TEXT NOT NULL,
-    voiced_by TEXT NOT NULL
+    photo_url TEXT NOT NULL
+    -- voiced_by TEXT NOT NULL
 )

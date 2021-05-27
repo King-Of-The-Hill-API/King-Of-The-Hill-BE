@@ -7,7 +7,7 @@ describe('parse function', () => {
     const element = parse(document);
     console.log(element);
     expect(element).toEqual(expect.arrayContaining([
-      { name: '1', photoUrl: 'test.jpg', voicedBy: 'Tucker' }     
+      { name: '1', photoUrl: 'test.jpg' }     
     ]));
 
   });
